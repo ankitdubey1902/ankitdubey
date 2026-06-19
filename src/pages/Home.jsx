@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="min-h-[calc(100vh-56px)] flex items-center justify-center px-4 sm:px-6 py-12">
+    <div className="min-h-[calc(100vh-56px)] px-4 sm:px-6 py-8 md:py-12">
       <div className="max-w-2xl mx-auto text-center space-y-6">
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
           Hi, I'm Ankit
