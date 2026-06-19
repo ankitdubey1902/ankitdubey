@@ -1,8 +1,12 @@
 export default function Contact() {
   return (
-    <div className="min-h-[calc(100vh-56px)] flex flex-col sm:flex-row sm:items-center justify-center px-4 sm:px-6 py-8 md:py-12">
-      <div className="w-full max-w-sm">
-        <h1 className="text-3xl sm:text-4xl font-bold mb-8 text-center text-gray-900 dark:text-gray-100">Get in Touch</h1>
+    // Removed 'flex flex-col sm:flex-row sm:items-center justify-center' to align with Home padding layout
+    <div className="min-h-[calc(100vh-56px)] px-4 sm:px-6 py-8 md:py-12">
+      {/* Changed max-w-sm to mx-auto to center horizontally like the Home container */}
+      <div className="w-full max-w-sm mx-auto">
+        <h1 className="text-3xl sm:text-4xl font-bold mb-8 text-center text-gray-900 dark:text-gray-100">
+          Get in Touch
+        </h1>
         
         <form className="space-y-4">
           <div>
