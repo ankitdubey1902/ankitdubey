@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div className="min-h-[calc(100vh-56px)] flex items-center justify-center px-4 sm:px-6 py-8 md:py-12">
+    <div className="min-h-[calc(100vh-56px)] flex flex-col sm:flex-row sm:items-center justify-center px-4 sm:px-6 py-8 md:py-12">
       <div className="w-full max-w-sm">
         <h1 className="text-3xl sm:text-4xl font-bold mb-8 text-center text-gray-900 dark:text-gray-100">Get in Touch</h1>
         
